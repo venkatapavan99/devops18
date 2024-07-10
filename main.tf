@@ -1,6 +1,6 @@
 resource "aws_launch_configuration" "web_server_as" {
     image_id           = "ami-066f98455b59ca1ee"
-    instance_type = "t2.micro"
+    instance_type = "t2.medium"
     key_name = "test"
 }
    
