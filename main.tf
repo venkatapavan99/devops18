@@ -1,5 +1,5 @@
 resource "aws_launch_configuration" "web_server_as" {
-    image_id           = "ami-066f98455b59ca1ee"
+    image_id           = "ami-0370248b8ebbb99af"
     instance_type = "t2.medium"
     key_name = "Project"
 }
